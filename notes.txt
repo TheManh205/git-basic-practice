@@ -1,0 +1,32 @@
+===================================================
+                  HƯỚNG DẪN DỰ ÁN WEB ĐƠN GIẢN
+===================================================
+
+1. CẤU TRÚC THƯ MỤC
+-------------------
+Dự án của bạn bao gồm các tệp sau nằm trong cùng 1 thư mục:
+  ├── index.html   (Mã nguồn cấu trúc nội dung trang web)
+  ├── style.css    (Mã nguồn trang trí giao diện & màu sắc)
+  └── notes.txt    (Tệp ghi chú & hướng dẫn này)
+
+2. CÁCH LIÊN KẾT STYLE.CSS VÀO INDEX.HTML
+-----------------------------------------
+Thêm dòng mã sau vào bên trong thẻ <head> của tệp index.html:
+
+  <link rel="stylesheet" href="style.css">
+
+3. CÁCH SỬ DỤNG VÀ PHÁT TRIỂN
+-----------------------------
+- Mở tệp `index.html` bằng bất kỳ trình duyệt nào (Chrome, Edge, Firefox) để xem giao diện.
+- Muốn chỉnh sửa nội dung: Mở `index.html` bằng VS Code, Notepad++, hoặc bất kỳ Text Editor nào.
+- Muốn thay đổi màu sắc, font chữ, bố cục: Mở `style.css` và tùy chỉnh các biến `:root` ở đầu file.
+
+4. MỘT SỐ NGUYÊN TẮC CƠ BẢN
+--------------------------
+- Thẻ HTML quy định CẤU TRÚC (Nội dung, văn bản, hình ảnh, liên kết).
+- Mã CSS quy định TRÌNH BÀY (Màu sắc, kích thước, font chữ, khoảng cách).
+- Luôn đảm bảo lưu tệp (Ctrl + S) và bấm F5 trên trình duyệt để thấy thay đổi!
+
+===================================================
+Chúc bạn học lập trình web hiệu quả và vui vẻ!
+===================================================
